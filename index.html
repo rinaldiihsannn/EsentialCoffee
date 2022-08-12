@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esential Coffee</title>
+
+    <!-- font link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section class -->
+    <header class="header">
+      <section class="flex">
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="" /></a>
+
+        <nav class="navbar">
+          <a href="#home">home</a>
+          <a href="#about">about</a>
+          <a href="#facility">facility</a>
+          <a href="#menu">menu</a>
+          <a href="#contact">contact</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </section>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section -->
+
+    <div class="home-bg">
+      <section class="home" id="home">
+        <div class="content">
+          <h3>Esential Coffee</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repudiandae quisquam hic harum beatae.</p>
+          <a href="#about" class="btn">about us</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- home section ends -->
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="image">
+        <img src="images/about-img.svg" alt="" />
+      </div>
+
+      <div class="content">
+        <h3>Secangkir kopi bisa melengkapi harimu</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias voluptas temporibus rerum iure laboriosam perferendis consequuntur? Nesciunt accusamus quidem maxime, facilis illum, quam nemo modi perferendis deserunt est officiis
+          earum!
+        </p>
+        <a href="#menu" class="btn">menu </a>
+      </div>
+    </section>
+    <!-- about section ends -->
+    <!-- facility section -->
+    <section class="facility" id="facility">
+      <div class="heading">
+        <img src="images/heading-img.png" alt="" />
+        <h3>our facility</h3>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/icon-1.png" alt="" />
+          <h3>jenis kopi</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem minima mollitia culpa!</p>
+        </div>
+        <div class="box">
+          <img src="images/icon-2.png" alt="" />
+          <h3>biji kopi</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem minima mollitia culpa!</p>
+        </div>
+        <div class="box">
+          <img src="images/icon-3.png" alt="" />
+          <h3>sarapan</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem minima mollitia culpa!</p>
+        </div>
+        <div class="box">
+          <img src="images/icon-4.png" alt="" />
+          <h3>baca dengan minum kopi</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem minima mollitia culpa!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- facility section ends -->
+    <!-- menu section -->
+    <section class="menu" id="menu">
+      <div class="heading">
+        <img src="images/heading-img.png" alt="" />
+        <h3>popular menu</h3>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/menu-1.png" alt="" />
+          <h3>love u coffee</h3>
+        </div>
+        <div class="box">
+          <img src="images/menu-2.png" alt="" />
+          <h3>Capuccino</h3>
+        </div>
+        <div class="box">
+          <img src="images/menu-3.png" alt="" />
+          <h3>Mocha coffee</h3>
+        </div>
+        <div class="box">
+          <img src="images/menu-4.png" alt="" />
+          <h3>Frapuccino</h3>
+        </div>
+        <div class="box">
+          <img src="images/menu-5.png" alt="" />
+          <h3>Black Coffee</h3>
+        </div>
+        <div class="box">
+          <img src="images/menu-6.png" alt="" />
+          <h3>Heart Coffee</h3>
+        </div>
+      </div>
+    </section>
+    <!-- menu section ends -->
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <div class="heading">
+        <img src="images/heading-img.png" alt="" />
+        <h3>contact us</h3>
+      </div>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/contact-img.svg" alt="" />
+        </div>
+        <form action="" method="post">
+          <h3>buku pesanan</h3>
+          <input type="text" name="nama" required class="box" maxlength="20" placeholder="masukkin namanya" />
+          <input type="number" name="nomor" required class="box" maxlength="20" placeholder="masukkin nomornya" min="0" max="999999999" onkeypress="if(this.value.lenght == 10) return false" />
+          <input type="number" name="tamu" required class="box" maxlength="20" placeholder="Berapa banyak tamu" min="0" max="99" onkeypress="if(this.value.lenght == 2) return false" />
+          <input type="submit" name="Kirim" value="kirim pesan" class="btn" />
+        </form>
+      </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-envelope"></i>
+          <h3>Email kami</h3>
+          <p>rinaldiihsan0401@gmail.com</p>
+          <p>rinaldiihsan56@gmail.com</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-clock"></i>
+          <h3>jam buka</h3>
+          <p>07:00 - 23:00</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>lokasi kami</h3>
+          <p>Medan, Sumatera Utara</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-phone"></i>
+          <h3>Nomor Kami</h3>
+          <p>+123-456-7890</p>
+          <p>+111-222-3333</p>
+        </div>
+      </div>
+
+      <div class="credit">&copy; copyright @ 2022 by <a href="https://www.instagram.com/rinaldiihsann/">Rinaldi Ihsan</a>| all rights reserved!</div>
+    </section>
+    <!-- footer ends -->
+
+    <!-- javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
